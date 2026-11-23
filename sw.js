@@ -1,6 +1,6 @@
 // Cache apenas os arquivos do diário. Não armazena os dados de treino no servidor.
-const CACHE = 'diario-ciclo3-static-v1';
-const APP_FILES = ['./', './index.html', './manifest.webmanifest', './icon-192.png', './icon-512.png', './apple-touch-icon.png'];
+const CACHE = 'diario-ciclo3-static-v3-pdf-dinamico';
+const APP_FILES = ['./', './index.html', './manifest.webmanifest', './icon-192.png', './icon-512.png', './apple-touch-icon.png', './gerador-pdf.js'];
 self.addEventListener('install', event => {
   event.waitUntil(caches.open(CACHE).then(cache => cache.addAll(APP_FILES)).then(() => self.skipWaiting()));
 });
