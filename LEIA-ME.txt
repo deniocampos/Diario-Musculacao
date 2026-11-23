@@ -1,0 +1,21 @@
+PACOTE PARA GITHUB PAGES — DIÁRIO DE MUSCULAÇÃO CICLO 3
+
+No GitHub, crie um repositório público chamado diario-musculacao.
+Envie estes 6 arquivos PARA A RAIZ (não envie somente o ZIP):
+index.html
+manifest.webmanifest
+sw.js
+icon-192.png
+icon-512.png
+apple-touch-icon.png
+
+Settings > Pages > Deploy from a branch > main > /(root) > Save
+Seu site: https://SEU-USUARIO.github.io/diario-musculacao/
+
+Abra o site no Safari e use Compartilhar > Adicionar à Tela de Início.
+Faça backup JSON no diário anterior e importe-o no novo endereço, caso tenha registros.
+O repositório público expõe o código e as cargas fixas de referência a terceiros.
+Treinos individuais ficam salvos localmente no navegador, não no repositório.
+Se o iOS limpar dados do site, podem ser perdidos: guarde backups JSON.
+Funcionamento offline depende do primeiro carregamento e cache do navegador.
+Vídeos do YouTube precisam de internet; som em segundo plano não é garantido.
